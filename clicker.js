@@ -29,7 +29,7 @@ window.addEventListener('load', function(){
             let cell = $('<div class="cell"></div>');
             cell.css({'width': size, 'heigth': size});
             $('.field').append(cell);
-            $('.text').html('Вы спасли мир!');
+            $('.text').html('Вы нашли всех!');
             anime({
                 targets: 'img',
                 opacity: 0,
